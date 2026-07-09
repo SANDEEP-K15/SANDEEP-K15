@@ -43,8 +43,8 @@
     </td>
     <td width="50%">
       <h4>🔍 Sherlock Candidate ID</h4>
-      <p>A short description of what this project does — replace with your own.</p>
-      <p><b>Stack:</b> Python</p>
+      <p>Real-time interview candidate identification using weighted weak-signal fusion instead of brittle name-matching — with live confidence scoring and per-decision explainability.</p>
+      <p><b>Stack:</b> Python, Streamlit</p>
     </td>
   </tr>
   <tr>
