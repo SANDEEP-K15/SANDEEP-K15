@@ -49,9 +49,9 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4>💰 Finance Agents</h4>
-      <p>Multi-agent system for financial analysis/automation — replace with your own one-liner.</p>
-      <p><b>Stack:</b> TypeScript</p>
+      <h4>💹 Mr Finance Multi Agent</h4>
+<p>A multi-agent financial assistant that routes user queries across finance-analysis and web-search agents to deliver stock insights, market data, and recent financial news through a FastAPI backend and a React dashboard.</p>
+<p><b>Stack:</b> Python · FastAPI · React · TypeScript · Groq · Phi · YFinance</p>
     </td>
     <td width="50%">
       <h4>🚗 Number Plate Detection</h4>
