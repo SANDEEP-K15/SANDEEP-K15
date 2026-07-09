@@ -37,9 +37,9 @@
 <table>
   <tr>
     <td width="50%">
-      <h4>💉 Vaccine Genie</h4>
-      <p>An LLM-powered Streamlit app that extracts and compares immunization records against school requirements to flag gaps automatically.</p>
-      <p><b>Stack:</b> Python · Streamlit · LLM PDF extraction</p>
+      <h4>📱 Instagram AI Agent</h4>
+      <p>An AI-powered Instagram automation agent that uses Gemini for decision-making and Android automation to perform tasks like navigating the app, understanding on-screen context, and executing actions autonomously.</p>
+      <p><b>Stack:</b> Python · Gemini API · Droidrun · ADB · Android Automation</p>
     </td>
     <td width="50%">
       <h4>🔍 Sherlock Candidate ID</h4>
@@ -55,8 +55,8 @@
     </td>
     <td width="50%">
       <h4>🚗 Number Plate Detection</h4>
-      <p>Computer vision project for automatic number plate recognition (ANPR).</p>
-      <p><b>Stack:</b> Python · OpenCV</p>
+      <p>An automatic number plate recognition system that detects vehicle license plates from images/video and extracts plate text using computer vision and OCR for fast, reliable identification.</p>
+      <p><b>Stack:</b> Python · YOLOv8 · OpenCV · EasyOCR</p>
     </td>
   </tr>
 </table>
