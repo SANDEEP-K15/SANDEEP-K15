@@ -3,7 +3,7 @@
 <h3 align="center">B.Tech Math & Computing @ IIIT Bhagalpur | Exploring GenAI & Agentic AI</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Learning+to+build+with+LLMs+%2B+Agents;LangChain+%7C+LangGraph+%7C+RAG;Gemini+API+%7C+Vertex+AI;Currently+on+a+120-day+GenAI+sprint" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Learning+to+build+with+LLMs+%2B+Agents;LangChain+%7C+LangGraph+%7C+RAG;Gemini+API+%7C+Vertex+AI" alt="Typing SVG" />
 </p>
 
 ---
