@@ -15,7 +15,7 @@
 - 💼 Former AI/ML Engineer Intern @ Vaccine Genie · Generative AI Engineer Intern @ Tip2Trip LLP
 - 🔭 Currently building projects with **LangChain, LangGraph, and the Gemini API**
 - 🎯 Intrested in GenAI / Agentic AI Engineering roles —
-- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/sandeep-kumar-7843572aa/) · [Email](1517sandeep@gmai.com)
+- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/sandeep-kumar-7843572aa/) · [Email](1517sandeep@gmail.com)
 
 ---
 
