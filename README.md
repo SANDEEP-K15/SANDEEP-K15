@@ -11,10 +11,9 @@
 ### 🚀 About Me
 
 - 🎓 Final year B.Tech, Mathematics & Computing @ IIIT Bhagalpur
-- 🤖 Focused on **Generative AI & Agentic AI systems** — LLMs, RAG pipelines, multi-agent architectures
-- 💼 Former AI/ML Engineer Intern @ Vaccine Genie · Generative AI Engineer Intern @ Tip2Trip LLP
+- 🤖 Focused on **Generative AI & Agentic AI systems** LLMs, RAG pipelines, Multi Agent architectures
 - 🔭 Currently building projects with **LangChain, LangGraph, and the Gemini API**
-- 🎯 Intrested in GenAI / Agentic AI Engineering roles —
+- 🎯 Intrested in GenAI / Agentic AI Engineering roles.
 - 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/sandeep-kumar-7843572aa/) · [Email](mailto:1517sandeep@gmail.com)
 
 ---
@@ -38,19 +37,19 @@
   <tr>
     <td width="50%">
       <h4>📱 Instagram AI Agent</h4>
-      <p>An AI-powered Instagram automation agent that uses Gemini for decision-making and Android automation to perform tasks like navigating the app, understanding on-screen context, and executing actions autonomously.</p>
+      <p>An AI powered Instagram automation agent that uses Gemini for decision making and Android automation to perform tasks like navigating the app, understanding on screen context, and executing actions autonomously.</p>
       <p><b>Stack:</b> Python · Gemini API · Droidrun · ADB · Android Automation</p>
     </td>
     <td width="50%">
       <h4>🔍 Sherlock Candidate ID</h4>
-      <p>Real-time interview candidate identification using weighted weak-signal fusion instead of brittle name-matching — with live confidence scoring and per-decision explainability.</p>
+      <p>Real time interview candidate identification using weighted weak signal fusion instead of brittle name matching  with live confidence scoring and per decision explainability.</p>
       <p><b>Stack:</b> Python, Streamlit</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <h4>💹 Mr Finance Multi Agent</h4>
-<p>A multi-agent financial assistant that routes user queries across finance-analysis and web-search agents to deliver stock insights, market data, and recent financial news through a FastAPI backend and a React dashboard.</p>
+<p>A Multi Agent financial assistant that routes user queries across finance analysis and web search agents to deliver stock insights, market data, and recent financial news through a FastAPI backend and a React dashboard.</p>
 <p><b>Stack:</b> Python · FastAPI · React · TypeScript · Groq · Phi · YFinance</p>
     </td>
     <td width="50%">
