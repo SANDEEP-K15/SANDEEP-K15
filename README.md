@@ -1,65 +1,44 @@
-<h1 align="center">Hi, I'm Sandeep 👋</h1>
+## Sandeep Kumar
 
-<h3 align="center">B.Tech Math & Computing @ IIIT Bhagalpur | Exploring GenAI & Agentic AI</h3>
+**Applied AI Engineer building reliable LLM, agentic AI, and ML systems.**
+Final-year B.Tech in Mathematics & Computing at IIIT Bhagalpur, India.
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Learning+to+build+with+LLMs+%2B+Agents;LangChain+%7C+LangGraph+%7C+RAG;Gemini+API+%7C+Vertex+AI" alt="Typing SVG" />
-</p>
+I build AI applications the way I would want to operate them: plain code where the answer must be exact,
+a model only where judgement is needed, outputs validated against a schema, quality measured on labelled data,
+and failures reported explicitly instead of hidden behind a confident answer.
 
----
+### Featured work
 
-### 🚀 About Me
+| Project | What it does | How it is verified |
+|---|---|---|
+| [**vireo-audio-support-intelligence**](https://github.com/SANDEEP-K15/vireo-audio-support-intelligence) | Weekly support digest. An LLM assigns each ticket one of 26 issue themes; cleaning, repeat-contact detection, costs and the leaderboard are deterministic pandas. Anthropic and Gemini behind one interface, with a cheapest-first model ladder and a cost gate on the historical backfill. | Gold set of 120 human-labelled tickets, locked by SHA-256: 98.3% accuracy for the selected model at about $0.00036 per ticket (repo report, private assessment data). Offline test suite with providers faked. |
+| [**intelligent-routing**](https://github.com/SANDEEP-K15/intelligent-routing) | Routes service requests to one of seven team queues with TF-IDF features and a calibrated linear SVM, served through FastAPI with plain-language reasons. | Time-based validation: 96.8% agreement with the existing bot's labels on the latest quarter (repo report, private data). The README also shows why that target matches the team that finally resolved a request only about 77% of the time. CI on Python 3.11–3.13. |
+| [**CareerPilotAI**](https://github.com/SANDEEP-K15/CareerPilotAI) | Job discovery and matching platform in a hexagonal architecture: FastAPI, async SQLAlchemy, Alembic, Temporal workflows, provider-neutral ports for job sources and LLMs, deterministic + semantic match scoring, approval-gated actions. | 31 architecture decision records, strict mypy, an architecture-boundary test, unit/contract/integration tests against Postgres in CI. Work in progress: the HTTP API has no deployed entry point yet. |
+| [**agentic-research-intelligence**](https://github.com/SANDEEP-K15/agentic-research-intelligence) | Research agent written without an agent framework: goal analysis, planning, a tool registry, bounded retries, evidence selection and a structured report that ends as `success`, `partial` or `failed`. | Offline test suite with a fake LLM and fake search, including retry limits, non-retryable errors and empty-search handling. Example runs include a failed and a partial result. |
+| [**Clinical-Lab-Results-Analyzer**](https://github.com/SANDEEP-K15/Clinical-Lab-Results-Analyzer) | Lab-result triage: reference-range classification in code, LLM explanations under a safety-constrained prompt with a fallback, and an MCP server exposing the lab tools. Educational, not diagnostic. | Backend test suite (pytest). |
 
-- 🎓 Final year B.Tech, Mathematics & Computing @ IIIT Bhagalpur
-- 🤖 Focused on **Generative AI & Agentic AI systems** LLMs, RAG pipelines, Multi Agent architectures
-- 🔭 Currently building projects with **LangChain, LangGraph, and the Gemini API**
-- 🎯 Intrested in GenAI / Agentic AI Engineering roles.
-- 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/sandeep-kumar-7843572aa/) · [Email](mailto:1517sandeep@gmail.com)
+### How I approach AI systems
 
----
+- **Deterministic first.** In vireo the model makes one judgement per ticket; dates, costs and joins are ordinary code with assertions.
+- **Validated outputs.** Model responses are parsed into Pydantic schemas and rejected or retried when they do not fit.
+- **Measured before rollout.** Models are scored on gold data cheapest-first, and the cheapest one that passes is used.
+- **Honest failure states.** Agents and pipelines return `partial` or `failed`, or fall back to rules, rather than inventing an answer.
 
-### 🛠️ Tech Stack
+### Also built
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+- **[api-rate-limiter](https://github.com/SANDEEP-K15/api-rate-limiter)**: multi-tenant rate-limit decision service with an atomic Redis Lua token bucket, hashed API keys and Prometheus metrics.
+- **[urumi-ai](https://github.com/SANDEEP-K15/urumi-ai)**: Kubernetes store provisioning with namespace-per-tenant isolation, Helm charts, quotas and network policies.
+- **[zycus-ai-engineer-assessment](https://github.com/SANDEEP-K15/zycus-ai-engineer-assessment)**: ticket triage with knowledge-base retrieval, schema-validated Gemini output and citation checks.
 
----
+### Tools I have used in these projects
 
-### 📌 Featured Projects
+Python · FastAPI · Pydantic · scikit-learn · pandas · SQLAlchemy · Alembic · PostgreSQL · Redis · Temporal ·
+Anthropic and Gemini APIs · Qdrant · MCP · Docker · Kubernetes · Helm · TypeScript · Next.js · GitHub Actions
 
-<table>
-  <tr>
-    <td width="50%">
-      <h4>📱 Instagram AI Agent</h4>
-      <p>An AI powered Instagram automation agent that uses Gemini for decision making and Android automation to perform tasks like navigating the app, understanding on screen context, and executing actions autonomously.</p>
-      <p><b>Stack:</b> Python · Gemini API · Droidrun · ADB · Android Automation</p>
-    </td>
-    <td width="50%">
-      <h4>🔍 Sherlock Candidate ID</h4>
-      <p>Real time interview candidate identification using weighted weak signal fusion instead of brittle name matching  with live confidence scoring and per decision explainability.</p>
-      <p><b>Stack:</b> Python, Streamlit</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h4>💹 Mr Finance Multi Agent</h4>
-<p>A Multi Agent financial assistant that routes user queries across finance analysis and web search agents to deliver stock insights, market data, and recent financial news through a FastAPI backend and a React dashboard.</p>
-<p><b>Stack:</b> Python · FastAPI · React · TypeScript · Groq · Phi · YFinance</p>
-    </td>
-    <td width="50%">
-      <h4>🚗 Number Plate Detection</h4>
-      <p>An automatic number plate recognition system that detects vehicle license plates from images/video and extracts plate text using computer vision and OCR for fast, reliable identification.</p>
-      <p><b>Stack:</b> Python · YOLOv8 · OpenCV · EasyOCR</p>
-    </td>
-  </tr>
-</table>
+### Currently
 
----
+Adding evaluation to CareerPilotAI's matching, and making my main projects reproducible from a clean clone with synthetic data.
 
+### Contact
 
+[LinkedIn](https://www.linkedin.com/in/sandeep-kumar-7843572aa/) · [Email](mailto:1517sandeep@gmail.com)
