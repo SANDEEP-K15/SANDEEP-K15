@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t">
+<title id="t">urumi-ai: Kubernetes store provisioning via a Fastify API, Helm charts, quotas and network policies.</title>
+<defs>
+  <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+  <radialGradient id="g" cx="1" cy="0" r="0.7"><stop offset="0" stop-color="#3b82f6" stop-opacity="0.28"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="598" height="258" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="598" height="258" rx="16" fill="url(#g)"/>
+<rect x="1" y="1" width="598" height="258" rx="16" fill="none" stroke="url(#a)" stroke-width="2"/>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+  <text x="32" y="44" font-size="12.5" font-weight="700" letter-spacing="2.2" fill="#6366f1">PLATFORM · KUBERNETES</text>
+  <text x="568" y="44" text-anchor="end" font-size="13" fill="#8b949e">view repo ↗</text>
+  <text x="32" y="80" font-size="24" font-weight="700" fill="#f0f6fc">urumi-ai</text>
+  <text x="32" y="110" font-size="15.5" fill="#9da7b3">Kubernetes store provisioning via a Fastify API,</text>
+  <text x="32" y="132" font-size="15.5" fill="#9da7b3">Helm charts, quotas and network policies.</text>
+  <text x="32" y="188" font-size="44" font-weight="800" fill="url(#a)">1:1</text>
+  <text x="113" y="169" font-size="14.5" fill="#c9d1d9">namespace per tenant</text>
+  <text x="113" y="188" font-size="14.5" fill="#c9d1d9">for isolation</text>
+  <rect x="32" y="212" width="97" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="80" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">TypeScript</text><rect x="137" y="212" width="75" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="174" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Fastify</text><rect x="220" y="212" width="97" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="268" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Kubernetes</text><rect x="325" y="212" width="53" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="351" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Helm</text>
+</g>
+</svg>

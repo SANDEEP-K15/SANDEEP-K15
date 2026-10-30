@@ -12,7 +12,7 @@ I build AI applications the way I would want to operate them: **plain code where
 a model only where judgement is needed**, outputs validated against a schema, quality measured on labelled data,
 and failures reported explicitly instead of hidden behind a confident answer.
 
-## 🚀 Featured work
+## 🚀 Featured AI & LLM systems
 
 <table>
   <tr>
@@ -23,9 +23,22 @@ and failures reported explicitly instead of hidden behind a confident answer.
     <td width="50%"><a href="https://github.com/SANDEEP-K15/CareerPilotAI"><img src="assets/card-careerpilotai.svg" alt="CareerPilotAI: job discovery and matching with hexagonal FastAPI, Temporal workflows and provider-neutral LLM ports. 31 architecture decision records, strict mypy." width="100%"></a></td>
     <td width="50%"><a href="https://github.com/SANDEEP-K15/agentic-research-intelligence"><img src="assets/card-agentic.svg" alt="agentic-research-intelligence: framework-free plan, execute, recover agent with a tool registry and bounded retries. 83 offline tests with a fake LLM and fake search." width="100%"></a></td>
   </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/SANDEEP-K15/Clinical-Lab-Results-Analyzer"><img src="assets/card-clinical-lab.svg" alt="Clinical-Lab-Results-Analyzer: lab-result triage with reference ranges in code, guarded LLM explanations with a safe fallback, and an MCP tool server. Educational, not diagnostic." width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SANDEEP-K15/zycus-ai-engineer-assessment"><img src="assets/card-zycus.svg" alt="zycus-ai-engineer-assessment: ticket triage with knowledge-base retrieval, schema-validated output and citation checks. 34 tests, including the deterministic fallback." width="100%"></a></td>
+  </tr>
 </table>
 
-<sub>Metrics come from each repository's own README and test suite. vireo and intelligent-routing were evaluated on private assessment data, so those numbers are as reported, not reproducible from a public clone.</sub>
+<sub>Metrics come from each repository's own README and test suite. vireo and intelligent-routing were evaluated on private assessment data, so those numbers are as reported, not reproducible from a public clone. Clinical-Lab is educational, not diagnostic.</sub>
+
+## ⚙️ Backend & platform engineering
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/SANDEEP-K15/api-rate-limiter"><img src="assets/card-api-rate-limiter.svg" alt="api-rate-limiter: multi-tenant rate-limit decisions with an atomic Redis Lua token bucket, hashed API keys and Prometheus metrics." width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SANDEEP-K15/urumi-ai"><img src="assets/card-urumi-ai.svg" alt="urumi-ai: Kubernetes store provisioning via a Fastify API, with a namespace per tenant, Helm charts, quotas and network policies." width="100%"></a></td>
+  </tr>
+</table>
 
 ## 🧭 How I build AI systems
 
@@ -37,15 +50,6 @@ and failures reported explicitly instead of hidden behind a confident answer.
 - **Validated outputs.** Model responses are parsed into Pydantic schemas and rejected or retried when they do not fit.
 - **Measured before rollout.** Models are scored on gold data cheapest-first, and the cheapest one that passes is used.
 - **Honest failure states.** Agents and pipelines return `partial` or `failed`, or fall back to rules, rather than inventing an answer.
-
-## 🧩 More projects
-
-| Project | What it is |
-|---|---|
-| [**Clinical-Lab-Results-Analyzer**](https://github.com/SANDEEP-K15/Clinical-Lab-Results-Analyzer) | Lab-result triage: reference ranges in code, guarded LLM explanations with a fallback, and an **MCP server** exposing the lab tools. Educational, not diagnostic. |
-| [**zycus-ai-engineer-assessment**](https://github.com/SANDEEP-K15/zycus-ai-engineer-assessment) | Ticket triage with knowledge-base retrieval, schema-validated Gemini output, citation checks and a deterministic fallback. |
-| [**api-rate-limiter**](https://github.com/SANDEEP-K15/api-rate-limiter) | Multi-tenant rate-limit decision service: atomic Redis Lua token bucket, hashed API keys, Prometheus metrics. |
-| [**urumi-ai**](https://github.com/SANDEEP-K15/urumi-ai) | Kubernetes store provisioning with namespace-per-tenant isolation, Helm charts, quotas and network policies. |
 
 ## 🛠️ Tech I have used in these projects
 

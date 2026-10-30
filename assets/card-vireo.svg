@@ -14,8 +14,8 @@
   <text x="32" y="110" font-size="15.5" fill="#9da7b3">LLM ticket classifier with a hash-locked gold set,</text>
   <text x="32" y="132" font-size="15.5" fill="#9da7b3">a cheapest-first model ladder and cost gates.</text>
   <text x="32" y="188" font-size="44" font-weight="800" fill="url(#a)">98.3%</text>
-  <text x="186" y="169" font-size="14.5" fill="#c9d1d9">accuracy on a 120-ticket</text>
-  <text x="186" y="188" font-size="14.5" fill="#c9d1d9">human-labelled gold set</text>
+  <text x="173" y="169" font-size="14.5" fill="#c9d1d9">accuracy on a 120-ticket</text>
+  <text x="173" y="188" font-size="14.5" fill="#c9d1d9">human-labelled gold set</text>
   <rect x="32" y="212" width="68" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="66" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Python</text><rect x="108" y="212" width="90" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="152" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Anthropic</text><rect x="205" y="212" width="68" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="239" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Gemini</text><rect x="281" y="212" width="82" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="322" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Pydantic</text><rect x="371" y="212" width="68" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="405" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">pandas</text>
 </g>
 </svg>
