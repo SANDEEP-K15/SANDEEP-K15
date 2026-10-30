@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="t">
+<title id="t">instagram_agent: LLM agents that operate Instagram on a real Android phone through Droidrun screen control.</title>
+<defs>
+  <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eab308"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+  <radialGradient id="g" cx="1" cy="0" r="0.7"><stop offset="0" stop-color="#eab308" stop-opacity="0.28"/><stop offset="1" stop-color="#eab308" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="598" height="258" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="598" height="258" rx="16" fill="url(#g)"/>
+<rect x="1" y="1" width="598" height="258" rx="16" fill="none" stroke="url(#a)" stroke-width="2"/>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+  <text x="32" y="44" font-size="12.5" font-weight="700" letter-spacing="2.2" fill="#f97316">AGENTIC AI · TEAM HACKATHON</text>
+  <text x="568" y="44" text-anchor="end" font-size="13" fill="#8b949e">view repo ↗</text>
+  <text x="32" y="80" font-size="24" font-weight="700" fill="#f0f6fc">instagram_agent</text>
+  <text x="32" y="110" font-size="15.5" fill="#9da7b3">LLM agents that operate Instagram on a real</text>
+  <text x="32" y="132" font-size="15.5" fill="#9da7b3">Android phone through Droidrun screen control.</text>
+  <text x="32" y="188" font-size="44" font-weight="800" fill="url(#a)">2</text>
+  <text x="74" y="169" font-size="14.5" fill="#c9d1d9">phone-control agents: reel</text>
+  <text x="74" y="188" font-size="14.5" fill="#c9d1d9">reactor and feed customiser</text>
+  <rect x="32" y="212" width="68" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="66" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Python</text><rect x="108" y="212" width="82" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="149" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Droidrun</text><rect x="198" y="212" width="97" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="246" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">LLM agents</text><rect x="303" y="212" width="75" height="28" rx="14" fill="#161b22" stroke="#30363d"/><text x="340" y="231" text-anchor="middle" font-size="13" fill="#c9d1d9">Android</text>
+</g>
+</svg>

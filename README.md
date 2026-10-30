@@ -25,11 +25,12 @@ and failures reported explicitly instead of hidden behind a confident answer.
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/SANDEEP-K15/Clinical-Lab-Results-Analyzer"><img src="assets/card-clinical-lab.svg" alt="Clinical-Lab-Results-Analyzer: lab-result triage with reference ranges in code, guarded LLM explanations with a safe fallback, and an MCP tool server. Educational, not diagnostic." width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/SANDEEP-K15/zycus-ai-engineer-assessment"><img src="assets/card-zycus.svg" alt="zycus-ai-engineer-assessment: ticket triage with knowledge-base retrieval, schema-validated output and citation checks. 34 tests, including the deterministic fallback." width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/SANDEEP-K15/instagram_agent"><img src="assets/card-instagram-agent.svg" alt="instagram_agent, a team hackathon project: LLM agents that operate Instagram on a real Android phone through Droidrun screen control. Two agents: reel reactor and feed customiser." width="100%"></a></td>
   </tr>
 </table>
 
-<sub>Metrics come from each repository's own README and test suite. vireo and intelligent-routing were evaluated on private assessment data, so those numbers are as reported, not reproducible from a public clone. Clinical-Lab is educational, not diagnostic.</sub>
+<sub>Metrics come from each repository's own README and test suite. vireo and intelligent-routing were evaluated on private assessment data, so those numbers are as reported, not reproducible from a public clone. Clinical-Lab is educational, not diagnostic.
+instagram_agent was built at a hackathon in a team of four with [DSK-champ](https://github.com/DSK-champ), [sushanthrm](https://github.com/sushanthrm) and [VivekanandaK123](https://github.com/VivekanandaK123).</sub>
 
 ## ⚙️ Backend & platform engineering
 
